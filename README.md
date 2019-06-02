@@ -15,12 +15,12 @@ on resolving them.
 * CSS
 * jS
 ## Behaviour Driven Development (Specifications) 
-Behaviour                   input              output
-All values match           [5,5,5]            equilateral
-Two values match           [3,3,2]            isosceles
-None of values match       [4,5,7]            scalene
-sum of 2sides<= third side [2,3,8]            not a triangle
-input not number           [a,r,e]            endea schoolfees yako
+|Behaviour                |   input           |  output                |
+|-----------------------: |-----------------: |-----------------------:|
+|All values match         | [5,5,5]           | equilateral            |
+|Two values match         |  [3,3,2]          |  isosceles             |
+|None of values match     |  [4,5,7]          |  scalene               |
+|input not number         |  [a,r,e]          |  endea schoolfees yako |
 ## Support and contact details
 In case of any questions ,comments or interest in doing a project together, please contact me using any of
  the following:
@@ -32,6 +32,6 @@ In case of any questions ,comments or interest in doing a project together, plea
  Coyright (c) 2019 **mark mumba**
 
 
- 
+
 
   permission is granted to anyone who wants to obtain this software and can make changes and distribute to other people.
