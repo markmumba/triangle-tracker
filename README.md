@@ -29,5 +29,5 @@ In case of any questions ,comments or interest in doing a project together, plea
 
 
  ### Licence
- Coyright (c) 2019 **mark mumba**
- permission is granted to anyone who wants to obtain this software and can make changes and distribute to other people.
+ * Coyright (c) 2019 **mark mumba**
+*  permission is granted to anyone who wants to obtain this software and can make changes and distribute to other people.
