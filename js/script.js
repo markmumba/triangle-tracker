@@ -16,6 +16,6 @@ function calculate()  {
     } else if(side1+side2<=side3 || side3+side2<=side1 || side1+side3 <=side2){
     document.getElementById ('show').innerHTML = 'Cannot form a triangle '
     } else {
-    document.getElementById ('show').innerHTML = 'mse kwani Rada'
+    document.getElementById ('show').innerHTML = 'endea schoolfees yako'
     }
     
