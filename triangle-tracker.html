@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRIANGLE TRACKER</title>
+        <link rel="stylesheet" type="text/css"
+        href="css/style.css">
+        <link rel="shortcut icon" href="image/8.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <h1> TRIANGLE TRACKER</h1>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+        <p1> SIDE  1
+       <br> <input type="number" id="first"></br></p1>
+       </div>
+       <div class="col-md-4">
+       <p2>SIDE 2
+           <br> <input type="number" id="second"></br>
+       </p2>
+       </div>
+       <div class="col-md-4">
+       <p3> SIDE 3
+           <br> <input type="number" id="third"></br>
+       </p3>
+       </div>
+
+      <p4> <button type="button" name="button" onclick="calculate();document.getElementById('show').style.display='block'">Find Out</button></p4>
+       
+       <p5><button type="button" name="button" onclick="document.getElementById('first').value = ''; document.getElementById('second').value = ''; document.getElementById('third').value = ''; document.getElementById('show').style.display='none' ">Reset</button></p5>
+        
+
+
+</div>
+</div>
+            <script src="js/script.js"></script>
+    </body>
+</html>
