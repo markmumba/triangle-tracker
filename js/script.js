@@ -11,26 +11,26 @@ function calculate() {
     
     if (side1 <= 0 || side2 <= 0 || side3 <= 0) 
     {
-        prompt ('Your values dont make up a triangle <br> <img src="image/tenor.gif" >')
+        alert ('Your values dont make up a triangle')
     } 
     else if (side1 === side2 && side1 === side3 && side2 === side3) 
     {
-        prompt ('This forms an equilateral triangle <br> <img src="image/tenor.gif" >')
+        alert ('This forms an equilateral triangle')
     } 
     else if (side1 === side2 || side2 === side3 || side1 === side3) 
     {
-        prompt ('This is an isosceles triangle <br> <img src="image/tenor.gif" > ')
+        alert ('This is an isosceles triangle')
     } 
     else if (side1 !== side2 && side2 !== side3 && side1 !== side3) 
     {
-        prompt ('This is a scalene triangle <br> <img src="image/tenor.gif" >')
+        alert ('This is a scalene triangle')
     } 
     else if (side1 + side2 <= side3 || side3 + side2 <= side1 || side1 + side3 <= side2) 
     {
-        prompt ('Cannot form a triangle <br> <img src="image/85.jpg" >')
+        alert ('Cannot form a triangle')
     } 
     else 
     {
-        prompt ('endea schoolfees yako')
+        alert ('endea schoolfees yako')
     }
 }
