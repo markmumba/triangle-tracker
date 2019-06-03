@@ -15,33 +15,34 @@
 </head>
 
 <body>
+    <form action="get">
+
+        <p1> SIDE 1
+            <br> <input type="number" id="first"></br></p1>
+
+        <p2>SIDE 2
+            <br> <input type="number" id="second"></br>
+        </p2>
+
+
+        <p3> SIDE 3
+            <br> <input type="number" id="third"></br>
+        </p3>
+
+        <div class="btn-group-vertical" role="group" aria-label="....">
+            <button type="button" value="button" onclick="calculate()">Answer </button>
 
 
 
-    <p1> SIDE 1
-        <br> <input type="number" id="first"></br></p1>
+            <button type="button" name="button" onclick="document.getElementById('first').value = ''; 
+        document.getElementById('second').value = ''; document.getElementById('third').value = ''; 
+        document.getElementById('show').style.display='none' ">Reset</button>
+        </div>
 
-    <p2>SIDE 2
-        <br> <input type="number" id="second"></br>
-    </p2>
+        </div>
+    </form>
 
-
-    <p3> SIDE 3
-        <br> <input type="number" id="third"></br>
-    </p3>
-
-    <div class="btn-group-vertical" role="group" aria-label="....">
-        <button type="button" name="button"
-            onclick="calculate();document.getElementById('show').style.display='block'">Answer </button>
-
-
-
-        <button type="button" name="button"
-            onclick="document.getElementById('first').value = ''; document.getElementById('second').value = ''; document.getElementById('third').value = ''; document.getElementById('show').style.display='none' ">Reset</button>
     </div>
-
-    </div>
-</div>
 
 
 
